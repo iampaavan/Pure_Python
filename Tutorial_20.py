@@ -110,14 +110,22 @@ my_list_12 = {}
 for name, hero in zip(names, heroes):
 	my_list_12[name] = hero
 	
-print(my_list_12)
+print('Using traditional For Loop: ', my_list_12)
+
+print()
+print('**************************************************')
+print()
+
+my_list_13 = {name: hero for name, hero in zip(names, heroes)}
+print('Using Dictionary Comprehension: ', my_list_13)
 
 print()
 print('**************************************************')
 print()
 
 
-
+# set comprehensions
+numbers = []
 
 
 
