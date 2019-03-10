@@ -98,7 +98,7 @@ print()
 names = ['Bruce', 'Clark', 'Peter', 'Logan', 'Wade']
 heroes = ['Batman', 'Superman', 'Spiderman', 'Wolverine', 'Deadpool']
 my_list_11 = list(zip(names, heroes))
-print(my_list_11)
+print('Using zip method to display in Dictionary - (Key, Value): ', my_list_11)
 
 print()
 print('**************************************************')
@@ -125,7 +125,55 @@ print()
 
 
 # set comprehensions
-numbers = []
+numbers = [1, 1, 2, 1, 3, 4, 5, 5, 6, 7, 8, 7, 9, 9]
+my_list_14 = set()
 
+for r in numbers:
+	my_list_14.add(r)
+print('Add elements into the set: ', my_list_14)
+
+print()
+print('**************************************************')
+print()
+
+my_list_15 = {s for s in numbers}
+print('Using Set Comprehension: ', my_list_15)
+
+print()
+print('**************************************************')
+print()
+
+# Generator Expressions
+# I want to yield n * n for each 'n' in nums
+
+numbers_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+def gen_func(numpy):
+	for t in numbers_1:
+		yield t * t
+		
+		
+my_list_16 = gen_func(numbers_1)
+# print(list(my_list_16))
+
+for u in my_list_16:
+	print(u)
+	
+print()
+print('**************************************************')
+print()
+
+numbers_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_list_17 = (n * n for n in numbers_2)
+
+# print(list(my_list_17))
+
+for v in my_list_17:
+	print(v)
+	
+print()
+print('**************************************************')
+print()
 
 
