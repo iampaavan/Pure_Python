@@ -1,4 +1,3 @@
 # Python_Learn
-Python Tutorials
 
-Basics of Python
+Complete Python Topics from Beginners to Advanced
