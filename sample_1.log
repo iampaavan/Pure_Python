@@ -1,0 +1,17 @@
+2019-03-19 01:01:27,298: __main__: Tried to divide the number ny 0. 
+2019-03-19 01:01:36,292: __main__: Tried to divide the number by 0. 
+2019-03-19 01:02:49,975: __main__: Tried to divide the number by 0. 
+Traceback (most recent call last):
+  File "C:/Users/Paavan Gopala/PycharmProjects/Learn_Python/Logging Advanced - Loggers, Handlers, and Formatters.py", line 48, in div_function
+    result = x / y
+ZeroDivisionError: division by zero
+2019-03-19 01:06:12,410: __main__: Tried to divide the number by 0. 
+Traceback (most recent call last):
+  File "C:/Users/Paavan Gopala/PycharmProjects/Learn_Python/Logging Advanced - Loggers, Handlers, and Formatters.py", line 51, in div_function
+    result = x / y
+ZeroDivisionError: division by zero
+2019-03-19 01:07:24,434: __main__: Tried to divide the number by 0. 
+Traceback (most recent call last):
+  File "C:/Users/Paavan Gopala/PycharmProjects/Learn_Python/Logging Advanced - Loggers, Handlers, and Formatters.py", line 52, in div_function
+    result = x / y
+ZeroDivisionError: division by zero
